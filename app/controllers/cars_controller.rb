@@ -4,7 +4,7 @@ class CarsController < ApplicationController
   # GET /cars
   # GET /cars.json
   def index
-    @cars = Car.all
+    @cars = Car.order(params[:sort])
   end
 
   # GET /cars/1
