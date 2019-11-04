@@ -1,0 +1,2 @@
+json.extract! car, :id, :make, :model, :year, :transmission, :transmission_steps, :shape, :motor_type, :motor_capacity, :cylenders, :valves, :horsepower, :torque, :fuel, :tank_capacity, :max_speed, :acceleration, :origin, :manufactured, :length, :width, :height, :clearence, :wheel_base, :wheel_radius, :seats, :trunk_size, :abs, :abd, :esp, :airbags, :warning, :front_fog, :back_fog, :back_whipers, :automatic_side_mirrors, :created_at, :updated_at
+json.url car_url(car, format: :json)
